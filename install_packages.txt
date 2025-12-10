@@ -1,0 +1,14 @@
+mamba create -n rnaseq_analysis -c conda-forge -c bioconda \
+    r-base=4.4.1 \
+    bioconductor-deseq2 \
+    bioconductor-apeglm \
+    r-ggplot2 \
+    r-dplyr \
+    r-data.table \
+    r-pheatmap \
+    r-rcolorbrewer \
+    r-tidyverse
+
+# Activate environment
+conda activate rnaseq_analysis
+
